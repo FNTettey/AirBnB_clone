@@ -1,4 +1,4 @@
-# A gropu project with the ai of implementing a simple clone of the AirBnB website.
+# A group project with the ai of implementing a simple clone of the AirBnB website.
 
 ### Execution
 #### The shell should work like this in interactive mode:
