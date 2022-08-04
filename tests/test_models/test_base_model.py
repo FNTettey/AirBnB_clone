@@ -143,7 +143,7 @@ class TestBaseModel_to_dict(unittest.TestCase):
         self.assertEqual(str, type(bm_dict["created_at"]))
         self.assertEqual(str, type(bm_dict["updated_at"]))
 
-         def test_to_dict_with_arg(self):
+    def test_to_dict_with_arg(self):
         bm = BaseModel()
         with self.assertRaises(TypeError):
             bm.to_dict(None)
