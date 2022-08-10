@@ -204,8 +204,6 @@ class HBNBCommand(cmd.Cmd):
                     obj.__dict__[k] = v
         storage.save()
 
-    def all(cls):
-        return cls.instances
  
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
