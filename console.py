@@ -45,6 +45,9 @@ class HBNBCommand(cmd.Cmd):
         "Amenity",
         "Review"
     }
+
+    __instances = []
+    
  
     def emptyline(self):
         """Do nothing upon receiving an empty line."""
@@ -200,6 +203,9 @@ class HBNBCommand(cmd.Cmd):
                 else:
                     obj.__dict__[k] = v
         storage.save()
+
+    def all(cls):
+        return cls.instances
  
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
