@@ -203,6 +203,8 @@ class HBNBCommand(cmd.Cmd):
                 else:
                     obj.__dict__[k] = v
         storage.save()
-        
+<<<<<<< HEAD        
+=======
+>>>>>>> 707fe1e4af1b5be84c5a9642e31b465201876c11
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
